@@ -2,7 +2,7 @@
 
 int main(int argc, char** argv)
 {
-	printf("Save Program\n");
+	printf("Save Program Matcher System!\n");
 
 	return 0;
 }
