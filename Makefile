@@ -1,14 +1,15 @@
 CC=gcc
+CXX=g++
 
 TARGET=hello
-SRCS=main.c
+SRCS=main.cpp
 OBJS=main.o
 
 .c=.o
 
 all: ${OBJS}
-	gcc -o ${TARGET} ${SRCS}
+	${CXX} -o ${TARGET} ${SRCS}
 
 clean:
-	rm -rf *.o
+	rm -rf ${OBJS}
 	rm -rf ${TARGET}
